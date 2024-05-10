@@ -21,38 +21,28 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={chatify}
-              isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
-            />
-          </Col> */}
-
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Class_management_system}
               isBlog={false}
               title="Class-management-system"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              description="Developed a Class Management Web Application with React.js, featuring Material UI for an engaging UI and Node.js with Express.js for the backend, ensuring seamless attendance tracking and holiday management. Rigorous Jest testing guaranteed a stable, high-performing platform"
               ghLink="https://github.com/Dinesh-Gummadidala/class-management-system"
               
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={Cine_list}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Cine_list"
+              description="Created a dynamic movie listing application using the TMDB (The Movie Database) API, providing users with a seamless experience to discover and explore movies. This project utilizes React.js for the frontend development, enabling a responsive and interactive interface."
+              ghLink="https://github.com/Dinesh-Gummadidala/cine_list"
+                      
             />
-          </Col> */}
+          </Col>
 
           {/* <Col md={4} className="project-card">
             <ProjectCard
